@@ -1,0 +1,78 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  cd Documents
+    4  ls
+    5  mkdir RTR105
+    6  cd RTR105/
+    7  git init
+    8  echo "# RTR105" >> README.md
+    9  git add README.md 
+   10  git commit -m "first commit"
+   11  git config --global user.email "roberts7531@gmail.com"
+   12  git config --global user.name "Roberts Jakovlevs"
+   13  git commit -m "first commit"
+   14  git branch -M main
+   15  git remote add origin https://github.com/roberts7531/RTR105.git
+   16  git push -u origin main
+   17  clear
+   18  gcc
+   19  clear
+   20  edit test.c
+   21  gcc test.c
+   22  ls
+   23  ./a.out 
+   24  edit test.c
+   25  gcc test.c
+   26  edit test.c
+   27  gcc test.c
+   28  ./a.out 
+   29  git add test.c
+   30  git commit -m "Added a c Hello world"
+   31  git push
+   32  cd ..
+   33  rm -rf 
+   34  rm -rf RTR105
+   35  ls
+   36  cd ..
+   37  ls -lt
+   38  git clone https://roberts7531/RTR105
+   39  git clone https://github.com/\roberts7531/RTR105
+   40  ls
+   41  cd RTR105/
+   42  ls
+   43  history | grep git
+   44  history
+   45  find
+   46  cd /
+   47  find
+   48  clear
+   49  find | grep passwd
+   50  ls
+   51  cd~
+   52  cd ~
+   53  ls
+   54  clear
+   55  ls
+   56  cd RTR105/
+   57  ls -lt
+   58  nano 
+   59  touch test
+   60  git add
+   61  add .
+   62  git add .
+   63  ls
+   64  git 
+   65  git status
+   66  git commit 
+   67  ls
+   68  cd RTR105/
+   69  ls
+   70  nano commit_all.sh
+   71  history | grep global
+   72  nano commit_all.sh 
+   73  chmod +x commit_all.sh 
+   74  ./commit_all.sh 
+   75  PATH=$PATH:./
+   76  ls
+   77  commit_all.sh 
+   78  history > history_20220920.txt
