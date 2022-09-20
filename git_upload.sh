@@ -1,6 +1,8 @@
 #/bin/bash
 git add .
-git commit -m "committed changes"
+echo Enter commit name
+read comname
+git commit -m "$comname"
 git config --global user.email "robe*****31@gmail.com"
 git config --global user.name "Roberts Jakovlevs"
 git push
