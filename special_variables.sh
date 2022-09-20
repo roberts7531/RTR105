@@ -14,3 +14,6 @@ for TOKEN in $*
 do
 	echo $TOKEN
 done
+
+
+# https://www.tutorialspoint.com/unix/unix-special-variables.htm
